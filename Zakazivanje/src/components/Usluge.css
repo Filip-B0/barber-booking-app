@@ -1,0 +1,81 @@
+
+.usluge {
+    padding: 2rem 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.usluge-title {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 2.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.usluge-title::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #d4a24e;
+}
+
+.usluge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1.5rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.usluga-card {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 3rem 3rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.usluga-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-color: #d4a24e;
+}
+
+.usluga-icon {
+    width: 55px;
+    height: 55px;
+    color: #d4a24e;
+    margin-bottom: 3rem;
+}
+
+.usluga-card h3 {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.usluga-card p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    min-height: 40px;
+}
+
+.usluga-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: #d4a24e;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.usluga-link:hover {
+    text-decoration: underline;
+}

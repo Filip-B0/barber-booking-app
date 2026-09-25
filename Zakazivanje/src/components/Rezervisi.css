@@ -1,0 +1,68 @@
+.rezervisi-cta {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background-color: #000;
+    background-image: url('../assets/images/stolica.webp');
+    background-position: 1% 19%;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+    padding: 3rem 5%;
+    overflow: hidden;
+}
+
+.rezervisi-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+}
+
+.rezervisi-cta-left {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.rezervisi-cta-left,
+.rezervisi-cta-btn {
+    position: relative;
+    z-index: 1;
+}
+
+.rezervisi-cta-icon {
+    width: 32px;
+    height: 32px;
+    color: #d4a24e;
+    flex-shrink: 0;
+}
+
+.rezervisi-cta-left h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0.4rem;
+}
+
+.rezervisi-cta-left p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.rezervisi-cta-btn {
+    background-color: #d4a24e;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 14px 28px;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+}
+
+.rezervisi-cta-btn:hover {
+    background-color: #c08f3e;
+}

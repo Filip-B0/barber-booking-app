@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    margin-top: 90px; 
+}
+
+.hero-text {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 5%;
+    color: white;
+}
+
+.hero-tag {
+    color: #d4a24e;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero-desc {
+    font-family: "Cinzel", serif;
+    color: #ccc;
+    margin-bottom: 2rem;
+    max-width: 400px;
+    font-size: 13px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary {
+    font-family: "Cinzel", serif;
+    background: #d4a24e;
+    color: black;
+    border: none;
+    padding: 14px 28px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.btn-outline {
+    font-family: "Cinzel", serif;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-image-wrapper {
+    position: relative;
+    flex: 4 1 700px;           /*3 takodje nije lose*/
+    aspect-ratio: 3000 / 1993;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fade-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, black 0%, transparent 25%);
+    pointer-events: none;
+}

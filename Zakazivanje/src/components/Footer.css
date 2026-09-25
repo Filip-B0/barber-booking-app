@@ -1,0 +1,154 @@
+.footer {
+    background-color: #000;
+    padding: 3.5rem 5% 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2.5rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+}
+
+.footer-logo {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+}
+
+.footer-tagline {
+    color: #d4a24e;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.footer-desc {
+    color: #999;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    max-width: 280px;
+}
+
+
+
+
+.footer-links,
+.footer-hours,
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h4 {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 1.25rem;
+}
+
+.footer-links a {
+    color: #999;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 0.75rem;
+    transition: color 0.2s ease;
+    width: fit-content;
+}
+
+.footer-links a:hover {
+    color: #d4a24e;
+}
+
+.footer-hours-row,
+.footer-contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    color: #999;
+    font-size: 13px;
+}
+
+.footer-hours-row svg,
+.footer-contact-row svg {
+    color: #d4a24e;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.footer-hours-time {
+    color: #d4a24e;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #222;
+    padding: 1.25rem 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #666;
+    font-size: 12px;
+}
+
+.footer-logo-img {
+    height: 60px; 
+    width: auto;
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.logo-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(7px);
+}
+
+
+@media (max-width: 768px) {
+    .footer-grid {
+        text-align: center;
+    }
+
+    .footer-brand,
+    .footer-links,
+    .footer-hours,
+    .footer-contact {
+        align-items: center;
+    }
+
+    .logo-text {
+        justify-content: center;
+    }
+
+    .footer-hours-row,
+    .footer-contact-row {
+        justify-content: center;
+    }
+
+    .footer-desc {
+        max-width: 230px;
+        text-align: center;
+        margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+.logo-vracanje{
+    text-decoration: none;
+    color: inherit;
+}
