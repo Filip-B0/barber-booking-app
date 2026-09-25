@@ -1,16 +1,41 @@
-# React + Vite
+# Barber Booking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web application for booking appointments at a barbershop, built with React and Vite.
 
-Currently, two official plugins are available:
+> 🚧 **Work in progress** — this project is under active development. Core UI is being built out; booking logic and backend integration are not implemented yet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This app will allow users to browse services, view pricing, and book an appointment at a barbershop — starting with a clean, responsive frontend before backend features are added.
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React** – UI library
+- **Vite** – build tool & dev server
+- **Oxlint** – linting
+
+## Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Filip-B0/barber-booking-app.git
+cd barber-booking-app
+npm install
+npm run dev
+```
+
+The app will be available at `http://localhost:5173` (or the port shown in your terminal).
+
+## Roadmap
+
+- [ ] Service selection UI
+- [ ] Appointment calendar
+- [ ] Backend & database integration
+- [ ] User authentication
+
+## License
+
+All rights reserved.
