@@ -10,6 +10,10 @@ A web application for booking appointments at a barbershop, built with React and
 
 This app will allow users to browse services, view pricing, and book an appointment at a barbershop — starting with a clean, responsive frontend before backend features are added.
 
+## Preview
+
+![Royal Cuts Barber Shop – Home page](./screenshots/home-page.png)
+
 ## Tech Stack
 
 - **React** – UI library
